@@ -5,7 +5,7 @@ import datetime
 from datetime import date
 
 # Создаем объект бота
-bot = telebot.TeleBot('783185943:AAGHZLBzCo4xUUtGj0eVMTNLKyjiA3ARgX4')
+bot = telebot.TeleBot('TOKEN')
 
 # создаем подключение к базе данных
 conn = sqlite3.connect('tasks.db', check_same_thread=False)
